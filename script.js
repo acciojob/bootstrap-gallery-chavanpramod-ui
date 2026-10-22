@@ -1,4 +1,3 @@
-//your JS code here. If required.
 document.addEventListener("DOMContentLoaded", () => {
     const images = document.querySelectorAll(".gallery-img");
     const lightboxImage = document.getElementById("lightboxImage");
