@@ -1,16 +1,86 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<div class="container my-4">
+		<h2 class="text-center mb-4">Cards Gallery</h2>
+		<div class="row">
+			<div class="col-md-4 mb-4">
+				<div class="card rounded">
+					<img src="https://storage.googleapis.com/acciojob-open-file-collections/image1.jpg" class="card-img-top gallery-img" alt="Image1">
+					<div class="card-body text-center">
+						<h6 class="card-title">Description 1</h6>
+						<p class="card-text">Details about card one.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 mb-4">
+				<div class="card rounded">
+					<img src="https://storage.googleapis.com/acciojob-open-file-collections/image2.jpg" class="card-img-top gallery-img" alt="Image2">
+					<div class="card-body text-center">
+						<h6 class="card-title">Description 2</h6>
+						<p class="card-text">Details about card two.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 mb-4">
+				<div class="card rounded">
+					<img src="https://storage.googleapis.com/acciojob-open-file-collections/image3.jpg" class="card-img-top gallery-img" alt="Image3">
+					<div class="card-body text-center">
+						<h6 class="card-title">Description 3</h6>
+						<p class="card-text">Details about card three.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 mb-4">
+				<div class="card rounded">
+					<img src="https://storage.googleapis.com/acciojob-open-file-collections/image4.jpg" class="card-img-top gallery-img" alt="Image4">
+					<div class="card-body text-center">
+						<h6 class="card-title">Description 4</h6>
+						<p class="card-text">Details about card four.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 mb-4">
+				<div class="card rounded">
+					<img src="https://storage.googleapis.com/acciojob-open-file-collections/image5.jpg" class="card-img-top gallery-img" alt="Image5">
+					<div class="card-body text-center">
+						<h6 class="card-title">Description 5</h6>
+						<p class="card-text">Details about card five.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 mb-4">
+				<div class="card rounded">
+					<img src="https://storage.googleapis.com/acciojob-open-file-collections/image6.jpg" class="card-img-top gallery-img" alt="Image6">
+					<div class="card-body text-center">
+						<h6 class="card-title">Description 6</h6>
+						<p class="card-text">Details about card six.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
+	<div class="modal fade" id="lightboxModal" tabindex="-1" role="dialog" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content bg-transparent border-0">
+		  <div class="modal-body text-center">
+			<img id="lightboxImage" src="https://storage.googleapis.com/acciojob-open-file-collections/image7.jpg" class="img-fluid" alt="Lightbox Image">
+		  </div>
+		</div>
+	  </div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
